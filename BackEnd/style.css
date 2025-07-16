@@ -1,0 +1,73 @@
+/* Reset and basic styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 30px;
+  color: #333;
+}
+
+/* Headings */
+h1 {
+  color: #4CAF50;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #444;
+  font-size: 22px;
+}
+
+/* Inputs and Buttons */
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 14px;
+  margin: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+/* Product and Cart lists */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  background: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  margin-left: 15px;
+  font-size: 14px;
+  padding: 6px 10px;
+}
+
+/* Status Messages */
+#loginStatus, #orderStatus {
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+}
